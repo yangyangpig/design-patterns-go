@@ -1,6 +1,8 @@
 # design-patterns-go
 Summary of common design patterns based on the go language
 
-##目录
+![](https://github.com/developersPHP/design-patterns-go/blob/master/images/golanglogo.jpg)
 
--[模式一 简单工厂模式]（）
+## 目录
+
+-[模式一 简单工厂模式]（https://github.com/developersPHP/design-patterns-go/edit/master/files/chapter1.md）
