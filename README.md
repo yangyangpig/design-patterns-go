@@ -25,5 +25,7 @@ Summary of common design patterns based on the go language
 
 - [模式十 建造者模式](https://github.com/developersPHP/design-patterns-go/blob/master/files/chapter10.md)
 
+- [模式十一 建造者模式](https://github.com/developersPHP/design-patterns-go/blob/master/files/chapter11.md)
+
 
 
