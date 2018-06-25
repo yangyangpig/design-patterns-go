@@ -1,4 +1,4 @@
-### 模式十 外观模式
+### 模式九 外观模式
 ```go
 type Facade struct {
     M Music
