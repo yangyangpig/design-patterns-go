@@ -20,3 +20,8 @@ Summary of common design patterns based on the go language
 - [模式七 原型模式](https://github.com/developersPHP/design-patterns-go/blob/master/files/chapter7.md)
 
 - [模式八 模板模式](https://github.com/developersPHP/design-patterns-go/blob/master/files/chapter8.md)
+
+- [模式九 模板模式](https://github.com/developersPHP/design-patterns-go/blob/master/files/chapter9.md)
+
+- [模式十 外观模式](https://github.com/developersPHP/design-patterns-go/blob/master/files/chapter10.md)
+
