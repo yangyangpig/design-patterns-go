@@ -4,6 +4,7 @@ Summary of common design patterns based on the go language
 ![](https://github.com/developersPHP/design-patterns-go/blob/master/images/golanglogo.jpg)
 
 ## 目录
+- [教你快速看懂UML图](https://github.com/developersPHP/design-patterns-go/blob/master/files/teachUML.md)
 
 - [模式一 简单工厂模式](https://github.com/developersPHP/design-patterns-go/blob/master/files/chapter1.md)
 
@@ -26,6 +27,7 @@ Summary of common design patterns based on the go language
 - [模式十 建造者模式](https://github.com/developersPHP/design-patterns-go/blob/master/files/chapter10.md)
 
 - [模式十一 观察者模式](https://github.com/developersPHP/design-patterns-go/blob/master/files/chapter11.md)
+
 
 
 
