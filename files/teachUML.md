@@ -2,7 +2,7 @@
 >这里不会将UML的各种元素都提到，我只想讲讲类图中各个类之间的关系； 能看懂类图中各个类之间的线条、箭头代表什么意思后，也就足够应对 日常的工作和交流； 同时，我们应该能将类图所表达的含义和最终的代码对应起来； 有了这些知识，看后面章节的设计模式结构图就没有什么问题了
 
 #### 从一个示例开始
-uml_class_struct
+
 >请看以下这个类图，类之间的关系是我们需要关注的：
 ![](https://github.com/developersPHP/design-patterns-go/blob/master/images/uml_class_struct.jpg)
 
