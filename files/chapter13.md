@@ -77,12 +77,15 @@ func main()  {
 * Client：客户类
 
 >对象适配器
+
 ![](https://github.com/developersPHP/design-patterns-go/blob/master/images/Adapter.jpg)
 
 >类适配器
+
 ![](https://github.com/developersPHP/design-patterns-go/blob/master/images/Adapter_classModel.jpg)
 
 >时序图
+
 ![](https://github.com/developersPHP/design-patterns-go/blob/master/images/seq_Adapter.jpg)
 
 #### 优点
