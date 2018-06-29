@@ -30,6 +30,8 @@ Summary of common design patterns based on the go language
 
 - [模式十二 抽象工厂模式](https://github.com/developersPHP/design-patterns-go/blob/master/files/chapter12.md)
 
+- [模式十三 适配器模式](https://github.com/developersPHP/design-patterns-go/blob/master/files/chapter13.md)
+
 
 
 

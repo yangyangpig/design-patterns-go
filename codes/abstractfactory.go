@@ -24,28 +24,28 @@ type ProductA1 struct {
 }
 
 func (this *ProductA1) Use() {
-	fmt.Printf("this is product %s", "A1")
+	fmt.Printf("this is product %s\n", "A1")
 }
 
 type ProductA2 struct {
 }
 
 func (this *ProductA2) Use() {
-	fmt.Printf("this is product %s", "A2")
+	fmt.Printf("this is product %s\n", "A2")
 }
 
 type ProductB1 struct {
 }
 
 func (this *ProductB1) Eat() {
-	fmt.Printf("this is product %s", "B1")
+	fmt.Printf("this is product %s\n", "B1")
 }
 
 type ProductB2 struct {
 }
 
 func (this *ProductB2) Eat() {
-	fmt.Printf("this is product %s", "B2")
+	fmt.Printf("this is product %s\n", "B2")
 }
 
 //建立实例工厂
