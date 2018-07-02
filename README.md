@@ -34,6 +34,8 @@ Summary of common design patterns based on the go language
 
 - [模式十四 桥接模式](https://github.com/developersPHP/design-patterns-go/blob/master/files/chapter14.md)
 
+- [模式十五 享元模式](https://github.com/developersPHP/design-patterns-go/blob/master/files/chapter15.md)
+
 
 
 

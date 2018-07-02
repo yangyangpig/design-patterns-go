@@ -33,6 +33,22 @@ func main() {
 }
 ```
 
-### 总结
->代理模式主要是在某些方法不像被直接修改或者访问的时候，可以用代理的方法，把需要访问或者扩展的方法被包含封装，
-写成一个代理，再进行扩展
+### 定义
+>代理模式(Proxy Pattern) ：给某一个对象提供一个代 理，并由代理对象控制对原对象的引用。
+代理模式的英 文叫做Proxy或Surrogate，它是一种对象结构型模式。
+
+#### 结构
+* Subject: 抽象主题角色
+* Proxy: 代理主题角色
+* RealSubject: 真实主题角色
+
+![](https://github.com/developersPHP/design-patterns-go/blob/master/images/Proxy.jpg)
+
+>时序图
+
+![](https://github.com/developersPHP/design-patterns-go/blob/master/images/seq_Proxy.jpg)
+
+
+
+
+
