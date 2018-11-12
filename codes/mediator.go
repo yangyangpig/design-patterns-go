@@ -5,10 +5,9 @@ import "fmt"
 //抽象中介者
 type AbstractChatroom interface {
 	register()
-	sendImage()
-	sendText()
 }
 
+//抽象成员
 type AbstractMember interface {
 	receiveImage()
 	receiveText()
@@ -17,17 +16,18 @@ type AbstractMember interface {
 	sendChatRoom()
 }
 
+//具体中介者
 type chatRoom struct {
-	com  commonMember
-	diam diamondMember
+	com AbstractMember
 }
 
 func (this *chatRoom) register(o interface{}) *chatRoom {
+
 	switch o.(type) {
-	case commonMember:
-		this.com = o.(commonMember)
-	case diamondMember:
-		this.diam = o.(diamondMember)
+	case *commonMember:
+		this.com = o.(*commonMember)
+	case *diamondMember:
+		this.com = o.(*diamondMember)
 	default:
 
 	}
@@ -37,7 +37,7 @@ func (this *chatRoom) register(o interface{}) *chatRoom {
 }
 
 func (this *chatRoom) sendImage() {
-	this.diam.sendImage()
+	this.com.sendImage()
 	fmt.Println("you have send a image")
 }
 
@@ -49,18 +49,46 @@ func (this *chatRoom) sendText() {
 type commonMember struct {
 }
 
+func (this commonMember) receiveImage() {
+	fmt.Println("common member only can send text")
+}
+
+func (this commonMember) receiveText() {
+	fmt.Println("common member only can send text")
+}
+
+func (this commonMember) sendImage() {
+	fmt.Println("common member only can send text")
+}
+
 func (this commonMember) sendText() {
+	fmt.Println("common member only can send text")
+}
+
+func (this commonMember) sendChatRoom() {
 	fmt.Println("common member only can send text")
 }
 
 type diamondMember struct {
 }
 
-func (this diamondMember) sendText() {
+func (this diamondMember) receiveImage() {
 	fmt.Println("diamondmember can send text")
 }
 
 func (this diamondMember) sendImage() {
+	fmt.Println("diamond member can send image")
+}
+
+func (this diamondMember) receiveText() {
+	fmt.Println("diamond member can send image")
+}
+
+func (this diamondMember) sendText() {
+	fmt.Println("diamond member can send image")
+}
+
+func (this diamondMember) sendChatRoom() {
 	fmt.Println("diamond member can send image")
 }
 

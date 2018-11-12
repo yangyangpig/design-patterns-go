@@ -38,6 +38,7 @@ Summary of common design patterns based on the go language
 
 - [模式十六 命令模式](https://github.com/developersPHP/design-patterns-go/blob/master/files/chapter16.md)
 
+- [原则一 单一职责原则](https://github.com/developersPHP/design-patterns-go/blob/master/files/rule1.md)
 
 
 
